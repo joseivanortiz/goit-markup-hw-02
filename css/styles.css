@@ -50,9 +50,23 @@ cursor: pointer;
     text-decoration: none;
  }
  header a{
-   
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
     color: #2196F3;
  }
+
+ header a:hover{
+
+    
+    color: #000000;
+ }
+
+
  header ul li a {
     color: black;
     
@@ -70,8 +84,41 @@ cursor: pointer;
     color: white;
  }
 
+ footer a {
+    padding-left: 5%;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    color: #2196F3;
+ }
+
+ footer a:hover {
+
+    
+    color: #000000;
+
+ }
+
+ footer > address {
+    padding-left: 5%;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    color: #2196F3;
+ }
+
+
  address a:hover{
-    color: white;
+    color: #000000;
+
  }
 
  body{
@@ -104,3 +151,4 @@ letter-spacing: 0.03em;
 text-align: center;
 
  }
+
